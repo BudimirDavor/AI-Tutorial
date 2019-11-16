@@ -1,0 +1,112 @@
+/* Created by 🇦​🇯​  and designed by Varinder Singh*/
+
+body {
+    font-family:Times New Roman;
+    font-size:15pt;
+    background-color:lightblue;
+}
+
+.marquee {
+    color: red;
+    padding: 1px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+    overflow:auto;
+    overflow-style:marquee,panner;
+    
+}
+
+.marquee p {
+     box-shadow: 0 2px 5px 0 rgba(0,0,0,.16),0 2px 10px 0 rgba(0,0,0,.12);
+}
+      
+.goog-logo-link {
+   display:none !important;
+}
+
+.goog-te-gadget {
+   color: transparent !important;
+}
+
+.goog-te-gadget .goog-te-combo {
+   color: blue !important;
+}
+
+.collapsible {
+  background-color: DodgerBlue;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: center;
+  font-weight:bold;
+  outline: none;
+  font-size: 16px;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.16),0 2px 10px 0 rgba(0,0,0,.12);
+}
+
+.collapsible1 {
+    background-color : red;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+  border-radius:20px;
+  
+}
+
+.collapsible:after {
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+button.collapsible {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 10px;
+  font-weight : bold;
+}
+
+.content {
+  padding: 0 10px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 1s ease-out;
+  background-color: #f1f1f1;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.16),0 2px 10px 0 rgba(0,0,0,.12);
+}
+
+a {
+    color:red;
+}
+
+p {
+    border-radius:10px;
+    border:solid 2px red;
+    background:white;
+    text-align:center ;
+    font-size:16px;
+    padding:2px;
+}
+.collapsible
+{
+    border-radius:20px;
+    font-family:Times New Roman;
+    
+}
+
+li {
+    font-size:16px;
+}
